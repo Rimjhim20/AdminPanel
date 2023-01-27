@@ -11,13 +11,13 @@
     "clientinstall": "npm install --prefix client",
     "dev": "concurrently \"npm run app\" \"npm run client\"",
     "render-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build -- prefix client"
-    
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "body-parser": "^1.20.1",
+    "concurrently": "^7.6.0",
     "config": "^3.3.8",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
