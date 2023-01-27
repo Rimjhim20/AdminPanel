@@ -1,4 +1,5 @@
 // app.js
+process.env.NODE_CONFIG_DIR='app/config';
 require("dotenv").config({path: "./config/.env"})
 const express = require('express');
 const connectDB = require('./config/db');
