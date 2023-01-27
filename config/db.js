@@ -1,6 +1,5 @@
 
    /* Replace <password> with your database password */
-
    process.env['NODE_CONFIG_DIR'] = path.join(__dirname, 'config/')
   // db.js
   const mongoose = require('mongoose');
