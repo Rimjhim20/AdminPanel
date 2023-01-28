@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "node app.js",
+    "start": "set NODE_ENV=production&&node app.js",
     "app": "nodemon app.js",
     "client": "npm start --prefix client",
     "clientinstall": "npm install --prefix client",
