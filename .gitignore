@@ -1,5 +1,5 @@
 .env
-default.json
+
 # dependencies
 /node_modules
 /.pnp
